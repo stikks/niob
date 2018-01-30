@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71d426c9-a8c2-4e17-b094-a449c05276e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/updateInfo.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/oladipoqudus@gmail.com-chatheads.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/chatmessage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/oladipoqudus@gmail.com-mindcure2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/styccs@gmail.com-accounting.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grade.php" afterPath="$PROJECT_DIR$/grade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.php" afterPath="$PROJECT_DIR$/setup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/payments.php" afterPath="$PROJECT_DIR$/user/payments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/profile.php" afterPath="$PROJECT_DIR$/user/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excos/Bldr. Abiodun Ogundare mniob Exco Co-Opt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excos/Bldr. Adelaja Adekanmbi mniob-Chairman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excos/Bldr. Adeoye Thomas Adeyemi fniob Ex-Officio.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excos/Bldr. Adesanya Olufemi A mniob Treasurer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excos/Bldr. Ganiyu S. Olaiya mniob Eco Co-Opt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excos/Bldr. Mrs. Momoh Mercy mniob Ex-Officio.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excos/Bldr. Mubarak O. Gbaja-Biamila mniob- Financial Secreatary.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excos/Bldr. Musediq Ganiyu mniob Exco Co-Opt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/execs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paymentPage.php" afterPath="$PROJECT_DIR$/paymentPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processPayment.php" afterPath="$PROJECT_DIR$/processPayment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/executives.html" afterPath="$PROJECT_DIR$/executives.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process.php" afterPath="$PROJECT_DIR$/process.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paymentPage.php" afterPath="$PROJECT_DIR$/paymentPage.php" />
     </list>
     <ignored path="niob.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,33 +36,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="callback.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/callback.php">
+      <file leaf-file-name="paymentPage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/paymentPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
-                <marker date="1511950987705" expanded="true" signature="9:60" ph=" Created by PhpStorm. ..." />
-                <marker date="1511950987705" expanded="true" signature="1340:1402" ph="SELECT * FRO... payment_reference" />
-                <marker date="1511950987705" expanded="true" signature="1661:1736" ph="UPDATE `paym... " />
+                <marker date="1515073694815" expanded="true" signature="67:96" ph="SELECT * FRO... payment_types" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="processPayment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processPayment.php">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1905">
-              <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="72" />
-              <folding>
-                <marker date="1513003891758" expanded="true" signature="299:356" ph="SELECT * FRO... payment_types" />
-                <marker date="1513003891758" expanded="true" signature="1446:1496" ph="SELECT * FRO... users" />
-                <marker date="1513003891758" expanded="true" signature="1672:1805" ph="INSERT INTO `users`... " />
-                <marker date="1513003891758" expanded="true" signature="2144:2194" ph="SELECT * FRO... niob_info" />
-                <marker date="1513003891758" expanded="true" signature="2620:2654" ph="SELECT * FRO... accounts" />
-                <marker date="1513003891758" expanded="true" signature="4234:4435" ph="INSERT INTO `payment_reference`... " />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,61 +61,47 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paymentPage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paymentPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-              <folding>
-                <marker date="1513004016334" expanded="true" signature="67:96" ph="SELECT * FRO... payment_types" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
-              <folding>
-                <marker date="1513159826374" expanded="true" signature="427:640" ph="CREATE TABLE... IF" />
-                <marker date="1513159826374" expanded="true" signature="682:1578" ph="CREATE TABLE... IF" />
-                <marker date="1513159826374" expanded="true" signature="1617:1882" ph="CREATE TABLE... IF" />
-                <marker date="1513159826374" expanded="true" signature="1922:2096" ph="CREATE TABLE... IF" />
-                <marker date="1513159826374" expanded="true" signature="2136:2279" ph="CREATE TABLE... IF" />
-                <marker date="1513159826374" expanded="true" signature="2317:2608" ph="CREATE TABLE... IF" />
-                <marker date="1513159826374" expanded="true" signature="2698:2862" ph="INSERT INTO users... " />
-                <marker date="1513159826374" expanded="true" signature="3479:3662" ph="INSERT INTO accounts... " />
-                <marker date="1513159826374" expanded="true" signature="6035:6124" ph="INSERT INTO `payment_types`... " />
-                <marker date="1513159826374" expanded="true" signature="7124:7184" ph="INSERT INTO `cadres`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xcel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xcel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-              <folding>
-                <marker date="1513163985130" expanded="true" signature="2036:2083" ph="SELECT * FRO... users" />
-                <marker date="1513163985130" expanded="true" signature="2306:2426" ph="INSERT INTO `users`... " />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="info.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/info.json">
+        <entry file="file://$PROJECT_DIR$/user/info.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3618" selection-start-line="0" selection-start-column="3618" selection-end-line="0" selection-end-column="3618" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="executives.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/executives.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="execs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/execs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6735">
+              <caret line="449" column="73" selection-start-line="449" selection-start-column="73" selection-end-line="449" selection-end-column="73" />
+              <folding>
+                <marker date="1515073319579" expanded="true" signature="59:88" ph="SELECT * FRO... payment_types" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -137,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/info.json">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="823" selection-start-line="0" selection-start-column="823" selection-end-line="0" selection-end-column="823" />
+            <state relative-caret-position="3810">
+              <caret line="254" column="33" selection-start-line="254" selection-start-column="33" selection-end-line="254" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -173,8 +146,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -189,9 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/type_info.php" />
-        <option value="$PROJECT_DIR$/admin/members.php" />
-        <option value="$PROJECT_DIR$/admin/grades.php" />
         <option value="$PROJECT_DIR$/admin/member_info.php" />
         <option value="$PROJECT_DIR$/admin/update_grade.php" />
         <option value="$PROJECT_DIR$/admin/grade_info.php" />
@@ -205,7 +175,6 @@
         <option value="$PROJECT_DIR$/process.php" />
         <option value="$PROJECT_DIR$/user/payments.php" />
         <option value="$PROJECT_DIR$/grade.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/user/updateInfo.php" />
         <option value="$PROJECT_DIR$/user/profile.php" />
         <option value="$PROJECT_DIR$/niob/loginprocess.php" />
@@ -235,11 +204,15 @@
         <option value="$PROJECT_DIR$/callback.php" />
         <option value="$PROJECT_DIR$/processPayment.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/paymentPage.php" />
         <option value="$PROJECT_DIR$/setup.php" />
         <option value="$PROJECT_DIR$/excel.json" />
         <option value="$PROJECT_DIR$/user/dbconnect.php" />
         <option value="$PROJECT_DIR$/xcel.php" />
+        <option value="$PROJECT_DIR$/executives.html" />
+        <option value="$PROJECT_DIR$/execs.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/execs.php" />
+        <option value="$PROJECT_DIR$/paymentPage.php" />
       </list>
     </option>
   </component>
@@ -254,10 +227,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1537" />
-    <option name="height" value="905" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1535" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -284,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files" />
       </pane>
@@ -306,22 +278,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="niob" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="niob" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +288,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="dbcon&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/dbconnect.php&#10;se&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/setup.php&#10;paymen&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/paymentPage.php&#10;login&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/login.php&#10;members&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/admin/members.php&#10;set&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/setup.php&#10;mem&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/admin/members.php&#10;lo&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/logout.php&#10;setup&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/setup.php&#10;process&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/process.php&#10;payme&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/paymentPage.php&#10;setu&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/setup.php&#10;grade&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/grade.php&#10;index&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/index.php&#10;pro&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/user/profile.php&#10;logo&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/logout.php&#10;profile&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/user/profile.php&#10;upda&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/user/updateInfo.php&#10;update&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/user/updateInfo.php&#10;proce&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/process.php&#10;grade.p&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/grade.php&#10;register&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/register.php&#10;payment&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/user/payments.php&#10;ogin&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/loginprocess.php&#10;proc&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/process.php&#10;style&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/static/css/style.css&#10;prof&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/user/profile.php&#10;log&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/loginprocess.php&#10;inde&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/index.php&#10;cal&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/callback.php&#10;ca&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/callback.php&#10;paym&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/processPayment.php&#10;custom.min.js&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/static/js/custom.min.js&#10;loginpr&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/loginprocess.php&#10;pay&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/paymentPage.php&#10;dashboard1.js&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/static/js/dashboard1.js&#10;loginp&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/loginprocess.php&#10;custom.min&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/admin/html/js/custom.min.js&#10;db&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/dbconnect.php&#10;page&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/page.php&#10;proces&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/processPayment.php&#10;roce&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/processPayment.php&#10;pa&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/payment.php&#10;st&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/static/style.css&#10;regis&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/register.php&#10;ndex&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/index.html&#10;payments.&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/payments.php&#10;mak&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/makeusername.php&#10;process.ph&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/process.php" />
+    <property name="SearchEverywhereHistoryKey" value="paymen&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/paymentPage.php&#10;exe&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/execs.php&#10;index&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/index.php&#10;payme&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/paymentPage.php&#10;login&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/login.php&#10;abou&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/about.html&#10;paym&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/paymentPage.php&#10;member&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/membership.html&#10;executive&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/executives.html&#10;dbcon&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/dbconnect.php&#10;se&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/setup.php&#10;members&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/admin/members.php&#10;set&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/setup.php&#10;mem&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/admin/members.php&#10;lo&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/logout.php&#10;setup&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/setup.php&#10;process&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/process.php&#10;setu&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/setup.php&#10;grade&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/grade.php&#10;pro&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/user/profile.php&#10;logo&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/logout.php&#10;profile&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/user/profile.php&#10;upda&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/niob/user/updateInfo.php&#10;update&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/user/updateInfo.php&#10;proce&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/process.php&#10;grade.p&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/grade.php&#10;register&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/register.php&#10;payment&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/user/payments.php&#10;ogin&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/loginprocess.php&#10;proc&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/process.php&#10;style&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/static/css/style.css&#10;prof&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/user/profile.php&#10;log&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/loginprocess.php&#10;inde&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/index.php&#10;cal&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/callback.php&#10;ca&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/callback.php&#10;custom.min.js&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/static/js/custom.min.js&#10;loginpr&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/loginprocess.php&#10;pay&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/paymentPage.php&#10;dashboard1.js&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/static/js/dashboard1.js&#10;loginp&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/loginprocess.php&#10;custom.min&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/admin/html/js/custom.min.js&#10;db&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/dbconnect.php&#10;page&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/page.php&#10;proces&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/processPayment.php&#10;roce&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/processPayment.php&#10;pa&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/payment.php&#10;st&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/static/style.css&#10;regis&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/register.php&#10;ndex&#9;FILE&#9;file:///home/stikks/Documents/projects/niob/index.html" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MusicStore v1.4" />
   </component>
   <component name="RunManager">
@@ -394,34 +353,40 @@
       <workItem from="1512916519754" duration="15577000" />
       <workItem from="1513076535053" duration="6352000" />
       <workItem from="1513155628024" duration="8408000" />
+      <workItem from="1514924663624" duration="1201000" />
+      <workItem from="1515066499211" duration="6651000" />
+      <workItem from="1515405263869" duration="10000" />
+      <workItem from="1515485198416" duration="18000" />
+      <workItem from="1515592678153" duration="1848000" />
+      <workItem from="1515661960770" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226271000" />
+    <option name="totallyTimeSpent" value="236020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1537" height="905" extended-state="6" />
+    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21824104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21628664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -445,15 +410,178 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/paymentPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1515073694815" expanded="true" signature="67:96" ph="SELECT * FRO... payment_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3618" selection-start-line="0" selection-start-column="3618" selection-end-line="0" selection-end-column="3618" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/executives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6735">
+          <caret line="449" column="73" selection-start-line="449" selection-start-column="73" selection-end-line="449" selection-end-column="73" />
+          <folding>
+            <marker date="1515073319579" expanded="true" signature="59:88" ph="SELECT * FRO... payment_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3810">
+          <caret line="254" column="33" selection-start-line="254" selection-start-column="33" selection-end-line="254" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paymentPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1515073694815" expanded="true" signature="67:96" ph="SELECT * FRO... payment_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3618" selection-start-line="0" selection-start-column="3618" selection-end-line="0" selection-end-column="3618" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/executives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6735">
+          <caret line="449" column="73" selection-start-line="449" selection-start-column="73" selection-end-line="449" selection-end-column="73" />
+          <folding>
+            <marker date="1515073319579" expanded="true" signature="59:88" ph="SELECT * FRO... payment_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3810">
+          <caret line="254" column="33" selection-start-line="254" selection-start-column="33" selection-end-line="254" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/callback.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <marker date="1511950987705" expanded="true" signature="9:60" ph=" Created by PhpStorm. ..." />
-            <marker date="1511950987705" expanded="true" signature="1340:1402" ph="SELECT * FRO... payment_reference" />
-            <marker date="1511950987705" expanded="true" signature="1661:1736" ph="UPDATE `paym... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,14 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="72" />
-          <folding>
-            <marker date="1513003891758" expanded="true" signature="299:356" ph="SELECT * FRO... payment_types" />
-            <marker date="1513003891758" expanded="true" signature="1446:1496" ph="SELECT * FRO... users" />
-            <marker date="1513003891758" expanded="true" signature="1672:1805" ph="INSERT INTO `users`... " />
-            <marker date="1513003891758" expanded="true" signature="2144:2194" ph="SELECT * FRO... niob_info" />
-            <marker date="1513003891758" expanded="true" signature="2620:2654" ph="SELECT * FRO... accounts" />
-            <marker date="1513003891758" expanded="true" signature="4234:4435" ph="INSERT INTO `payment_reference`... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,7 +605,7 @@
         <state relative-caret-position="525">
           <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding>
-            <marker date="1513004016334" expanded="true" signature="67:96" ph="SELECT * FRO... payment_types" />
+            <marker date="1515073694815" expanded="true" signature="67:96" ph="SELECT * FRO... payment_types" />
           </folding>
         </state>
       </provider>
@@ -494,18 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
-          <folding>
-            <marker date="1513159826374" expanded="true" signature="427:640" ph="CREATE TABLE... IF" />
-            <marker date="1513159826374" expanded="true" signature="682:1578" ph="CREATE TABLE... IF" />
-            <marker date="1513159826374" expanded="true" signature="1617:1882" ph="CREATE TABLE... IF" />
-            <marker date="1513159826374" expanded="true" signature="1922:2096" ph="CREATE TABLE... IF" />
-            <marker date="1513159826374" expanded="true" signature="2136:2279" ph="CREATE TABLE... IF" />
-            <marker date="1513159826374" expanded="true" signature="2317:2608" ph="CREATE TABLE... IF" />
-            <marker date="1513159826374" expanded="true" signature="2698:2862" ph="INSERT INTO users... " />
-            <marker date="1513159826374" expanded="true" signature="3479:3662" ph="INSERT INTO accounts... " />
-            <marker date="1513159826374" expanded="true" signature="6035:6124" ph="INSERT INTO `payment_types`... " />
-            <marker date="1513159826374" expanded="true" signature="7124:7184" ph="INSERT INTO `cadres`... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,14 +621,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding>
-            <marker date="1513163985130" expanded="true" signature="2036:2083" ph="SELECT * FRO... users" />
-            <marker date="1513163985130" expanded="true" signature="2306:2426" ph="INSERT INTO `users`... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/info.json">
+    <entry file="file://$PROJECT_DIR$/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -528,10 +646,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/paymentPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <marker date="1515073694815" expanded="true" signature="67:96" ph="SELECT * FRO... payment_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/membership.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paymentPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <marker date="1515073694815" expanded="true" signature="67:96" ph="SELECT * FRO... payment_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/info.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="823" selection-start-line="0" selection-start-column="823" selection-end-line="0" selection-end-column="823" />
+          <caret line="0" column="3618" selection-start-line="0" selection-start-column="3618" selection-end-line="0" selection-end-column="3618" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/executives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6735">
+          <caret line="449" column="73" selection-start-line="449" selection-start-column="73" selection-end-line="449" selection-end-column="73" />
+          <folding>
+            <marker date="1515073319579" expanded="true" signature="59:88" ph="SELECT * FRO... payment_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3810">
+          <caret line="254" column="33" selection-start-line="254" selection-start-column="33" selection-end-line="254" selection-end-column="33" />
           <folding />
         </state>
       </provider>

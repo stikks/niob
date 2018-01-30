@@ -99,6 +99,9 @@
             <div class="left" id="logo">
                 <a href="index.html"><img src="img/logo-nat.png" alt=""/></a>
             </div>
+            <div class="right" style="max-height: 100px; max-width: 100px">
+                <img src="img/building.jpg" height="100%" width="100%"/>
+            </div>
             <div class="left navigation" id="main-nav">
                 <div class="clearer">&nbsp;</div>
 
@@ -111,7 +114,7 @@
             <ul class="tabbed">
                 <li class="current-tab"><a href="index.php">HOME</a></li>
                 <li><a href="#" onclick="showUser('about.html', this.value)">ABOUT US</a></li>
-                <li><a href="#" onclick="showUser('executives.html', this.value)">EXECUTIVES</a></li>
+                <li><a href="execs.php">EXECUTIVES</a></li>
                 <?php
                 if (isset($_SESSION['user'])) { ?>
                     <li><a href="user/profile.php">MEMBERSHIPS</a></li>
@@ -250,21 +253,18 @@
         <div class="right sidebar" id="sidebar">
 
             <div class="section">
-
-                <div class="section-title">Board of Members</div>
+                <div class="section-title"><a href="execs.php" style="color: white">Executives</a></div>
 
                 <div class="section-content">
 
                     <ul class="nice-list">
-                        <li><a href="#">Gbajabiamila O.M</a> <span class="quiet">- Director</span></li>
-                        <li><a href="#">Kunle O</a> <span class="quiet">- Lead Writer</span></li>
-                        <li><a href="#">Fashola B</a> <span class="quiet">- Editor</span></li>
-                        <li><a href="#">Ambode O</a> <span class="quiet">- Writer</span></li>
-                        <li><a href="#">Kehinde T</a> <span class="quiet">- Writer</span></li>
+                        <li><span >Bldr Adelaja Adekanbi mniob</span> <span class="quiet">- Chairman</span></li>
+                        <li><span >Bldr Sunday Wusu</span> <span class="quiet">- Vice Chairman</span></li>
+                        <li><span >Bldr. Owolabi Rasheed  Ayoola</span> <span class="quiet">- Honorary Secretary</span></li>
+                        <li><span >Bldr  Adesanya Olufemi Ademola </span> <span class="quiet">- Treasurer</span></li>
+                        <li><span >Bldr. Mubarak O. Gbaja-Biamila</span> <span class="quiet">- Financial Secretary</span></li>
                     </ul>
-
                 </div>
-
             </div>
 
             <div class="section">

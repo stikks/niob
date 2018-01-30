@@ -1,16 +1,16 @@
 <?php session_start();
-    require('dbconnect.php');
-    $query = "SELECT * FROM `payment_types`";
-    $results_array = array();
-    $result = mysqli_query($connection, $query);
-    while ($row = $result->fetch_assoc()) {
-        $results_array[] = $row;
-    }
-    if ($results_array > 0) {
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+require('dbconnect.php');
+$query = "SELECT * FROM `payment_types`";
+$results_array = array();
+$result = mysqli_query($connection, $query);
+while ($row = $result->fetch_assoc()) {
+    $results_array[] = $row;
+}
+if ($results_array > 0) {
+    ?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
 
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -20,7 +20,7 @@
         <title>NIOB - Lagos Chapter</title>
         <link rel="stylesheet" type="text/css" href="static/sweetalert2.min.css"/>
         <link rel="stylesheet" type="text/css" href="static/style.css" media="screen"/>
-        
+
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css"/>
@@ -78,7 +78,7 @@
                             $('#hiddenAmount').val(response);
                             $('#amountFields').hide();
                             $('#grade').prop('disabled', false);
-                            $el.append($("<option></option>").attr("value", '').text('Select Cadre'));
+                            $el.append($("<option></option>").attr("value", '').text('Select Grade'));
                             $.each(data, function (key,value) {
                                 $el.append($("<option></option>").attr("value", value.name).text(value.name))
                             })
@@ -163,7 +163,7 @@
         </script>
         <style class="cp-pen-styles">/*custom font*/
             @import url(https://fonts.googleapis.com/css?family=Montserrat);
-            
+
             /*form styles*/
             #msform {
                 text-align: center;
@@ -347,7 +347,7 @@
     </head>
 
     <body>
-        <div id="site-wrapper">
+    <div id="site-wrapper">
 
         <div id="header">
 
@@ -366,9 +366,9 @@
             <div class="navigation" id="sub-nav">
 
                 <ul class="tabbed">
-                    <li class="current-tab"><a href="index.php">HOME</a></li>
+                    <li><a href="index.php">HOME</a></li>
                     <li><a href="#" onclick="showUser('about.html', this.value)">ABOUT US</a></li>
-                    <li><a href="execs.php">EXECUTIVES</a></li>
+                    <li class="current-tab"><a href="execs.php">EXECUTIVES</a></li>
                     <?php
                     if (isset($_SESSION['user'])) { ?>
                         <li><a href="user/profile.php">MEMBERSHIPS</a></li>
@@ -378,7 +378,7 @@
                     <li><a href="#" onclick="showUser('news.html', this.value)">NEWS ROOM</a></li>
                     <li><a href="#" onclick="showUser('gallery.html', this.value)">GALLERY</a></li>
                     <li><a href="#" onclick="showUser('contact.html', this.value)">CONTACT US</a></li>
-                    <li><a style="color:red" href="#" onclick="myFunction()">ONLINE PAYMENT</a></li>
+                    <li><a style="color:red" href="paymentPage.php" onclick="myFunction()">ONLINE PAYMENT</a></li>
                 </ul>
                 <div class="clearer">&nbsp;</div>
             </div>
@@ -390,109 +390,80 @@
             <?php } ?>
         </div>
 
-        <div id="splash">
-
-            <div class="col3 left">
-                <h2 class="label label-green">Mission Statement</h2>
-                <p>"To enable members deliver, with relevant stakeholders, sustainable shelter that addresses the housing
-                    needs of the Nation through research and development and global best practices"</p>
-            </div>
-
-            <div class="col3-mid left">
-                <h2 class="label label-orange">Our Vision</h2>
-                <p>"Providing Professional excellence and leadership for sustainable shelter"</p>
-            </div>
-
-            <div class="col3 right">
-
-                <h2 class="label label-blue">About Us</h2>
-                <p>The Nigerian Institute of Building is the professional body for Builders and those who are about to be
-                    engaged in the Building Profession</p>
-                <p><a href="https://vikpe.org/archive/arcsin-web-templates/" class="more">Read more &#187;</a><span
-                        class="quiet"></span></p>
-            </div>
-
-            <div class="clearer">&nbsp;</div>
-
-        </div>
-
         <div class="main" id="main-two-columns">
 
             <div class="left" id="main-content">
 
                 <div class="section">
-                    <div class="section-title">Payment Information</div>
+<!--                    <div class="section-title text-center">Our Executives</div>-->
                     <div class="section-content">
-                        <div class="post">
-                            <form method="post" action="processPayment.php" id="paymentForm">
-                                <div class="row">
-                                    <div class="form-group col-md-12">
-                                        <select name="paymentStatus" id="paymentStatus" class="form-control" required>
-                                            <option value=''> Select Membership Status </option>
-                                            <option value='registered'>Yes, I am a Registered Member</option>
-                                            <option value='non_registered'>No, I am a not a Registered Member</option>
-                                        </select>
-                                    </div>
-                                    <div id="noFields">
-                                        <div class="form-group col-md-12">
-                                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Phone Number">
+                        <div id="site-wrapper">
+                            <div class="main">
+                                <div class="section">
+                                    <div class="section-content">
+                                        <div class="post">
+                                            <div class="post-title text-center"><h3>Meet Our Executives</h3></div><br><br>
+                                            <div>
+                                                <div class="col3 left">
+                                                    <p><img src="excos/Bldr.%20Adelaja%20Adekanmbi%20mniob-Chairman.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Adelaja Adekanbi MNIOB<br> <b style="color: green">Chairman</b></p>
+                                                </div>
+                                                <div class="col3-mid left">
+                                                    <p><img src="excos/Bldr.Sunday%20Wusu%20fniob%20Vice%20Chairman.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Sunday Wusu FNIOB <br> <b style="color: green">Vice Chairman</b></p>
+                                                </div>
+                                                <div class="col3 right">
+                                                    <p><img src="excos/Bldr.%20Owolabi%20Rasheed%20Ayoola%20fniob%20Honorary%20Secretary.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Owolabi Rasheed  Ayoola <br> <b style="color: green">Honorary Secretary</b></p>
+                                                </div>
+
+                                                <div class="col3 left">
+                                                    <p><img src="excos/Bldr.%20Odusola-Stevenson%20Ese%20mniob-%20Asst.%20Hon%20Secretary.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Odusola-stevenson Y. Eseroghene <br> <b style="color: green">Assistant Honorary Secretary</b></p>
+                                                </div>
+                                                <div class="col3-mid left">
+                                                    <p><img src="excos/Bldr.%20Mubarak%20O.%20Gbaja-Biamila%20mniob-%20Financial%20Secreatary.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Mubarak O. Gbaja-Biamila MNIOB <br> <b style="color: green">Financial Secretary</b></p>
+                                                </div>
+                                                <div class="col3 right">
+                                                    <p><img src="excos/Bldr.%20Adesanya%20Olufemi%20A%20mniob%20Treasurer.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr  Adesanya Olufemi Ademola <br> <b style="color: green">Treasurer</b></p>
+                                                </div>
+                                                <div class="col3 left">
+                                                    <p><img src="excos/Bldr.%20Abiodun%20Ogundare%20mniob%20Exco%20Co-Opt.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Ogundare Abiodun <br> <b style="color: green">Coopt Member</b></p>
+                                                </div>
+                                                <div class="col3-mid left">
+                                                    <p><img src="excos/Bldr.%20Ganiyu%20S.%20Olaiya%20mniob%20Eco%20Co-Opt.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Ganiyu Musediq A <br> <b style="color: green">Coopt Member</b></p>
+                                                </div>
+                                                <div class="col3 right">
+                                                    <p><img src="excos/Bldr.%20Nurudeen%20Kiyomi%20mniob%20Exco%20Co-Opt.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Kayomi Nurudeen T. <br> <b style="color: green">Coopt Member</b></p>
+                                                </div>
+                                                <div class="col3 left">
+                                                    <p><img src="img/male-avatar.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. Isename E. Lucky <br> <b style="color: green">Coopt Member</b></p>
+                                                </div>
+                                                <div class="col3-mid left">
+                                                    <p><img src="img/female-avatar.png" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr. (Mrs) Said Adenike <br> <b style="color: green">Immediate Past Chairman</b></p>
+                                                </div>
+                                                <div class="col3 right">
+                                                    <p><img src="excos/Bldr.%20Adeoye%20Thomas%20Adeyemi%20fniob%20Ex-Officio.jpg" width="240" height="180" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr.Adeoye Thomas Adeyemi FNIOB <br> <b style="color: green">Ex-officio</b></p>
+                                                </div>
+                                                <div class="col3 left">
+                                                    <p><img src="excos/Bldr.%20Mrs.%20Momoh%20Mercy%20mniob%20Ex-Officio.jpg" width="240" height="360" alt="" class="bordered" /></p>
+                                                    <p class="quiet small">Bldr (Mrs).Momoh Olayinka Mercy <br> <b style="color: green">Ex-officio</b></p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group col-md-12">
-                                            <input type="email" class="form-control" name="username" id="username" placeholder="Enter Email Address">
-                                        </div>
-                                        <div class="form-group col-md-12">
-                                            <input type="text" class="form-control" name="full_name" id="full_name" placeholder="Enter Full Name">
-                                        </div>
-                                    </div>
-                                    <div id="yesFields">
-                                        <div class="form-group col-md-12">
-                                            <div class="input-group">
-                                                <div class="input-group-addon" style="border: none !important;">F</div>
-                                                <input type="text" class="form-control" id="reg_no" name="reg_no" placeholder="Corbon Number">
-                                            </div>  
-                                        </div>
-                                    </div>
-                                    <div id="paymentFields">
-<!--                                        <h2 class="fs-title">Payment Type</h2>-->
-                                        <div class="form-group col-md-12">
-                                            <select name="paymentType" id="paymentType" class="form-control" required>
-                                                <option value=''> Select Payment Type </option>
-                                                <?php foreach ($results_array as $res) { ?>
-                                                    <option value='<?php echo $res['code'] ?>'><?php echo $res['name'] ?></option>
-                                                <?php } ?>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div id="gradeFields">
-                                        <div class="form-group col-md-12">
-<!--                                            <h2 class="fs-title">Grade</h2>-->
-                                            <select name="grade" id="grade" class="form-control" required>
-                                                <option value=''> Select Cadre </option>
-                                                <?php $grades = array(); if (isset($_SESSION['grades'])) { $grades = $_SESSION['grades']; }; if(count($grades) > 0) { foreach ($grades as $gd) { ?>
-                                                    <option value='<?php echo $gd['name'] ?>'><?php echo $gd['name'] ?></option>
-                                                <?php } } ?>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div id="hiddenAmount"></div>
-                                    <div id="amountFields">
-                                        <div class="form-group col-md-12">
-                                            <label for="amount"></label>
-                                            <input type="number" class="form-control" name="amount" id="amount" value="0.0" required>
-                                        </div>
-                                    </div>
-<!--                                    <fieldset>-->
-<!--                                        -->
-<!--                                        -->
-<!--                                        <input type="submit" name="submit" class="submit action-button" value="Submit"/>-->
-<!--                                    </fieldset>-->
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn btn-large btn-success"><i class="fa fa-check"></i> Pay </button>
-                                        <div id="success"></div>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -500,53 +471,6 @@
 
             </div>
 
-            <div class="right sidebar" id="sidebar">
-
-                <div class="section">
-
-                    <div class="section-title"><a href="execs.php" style="color: white">Executives</a></div>
-
-                    <div class="section-content">
-
-                        <ul class="nice-list">
-                            <li><span >Bldr Adelaja Adekanbi mniob</span> <span class="quiet">- Chairman</span></li>
-                            <li><span >Bldr Sunday Wusu</span> <span class="quiet">- Vice Chairman</span></li>
-                            <li><span >Bldr. Owolabi Rasheed  Ayoola</span> <span class="quiet">- Honorary Secretary</span></li>
-                            <li><span >Bldr  Adesanya Olufemi Ademola </span> <span class="quiet">- Treasurer</span></li>
-                            <li><span >Bldr. Mubarak O. Gbaja-Biamila</span> <span class="quiet">- Financial Secretary</span></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="section">
-
-                    <div class="section-title"> News</div>
-
-                    <div class="section-content">
-
-                        <ul class="nice-list">
-                            <li>
-                                <div class="left"><a href="#">Aenean tempor arcu..</a></div>
-                                <div class="right">Oct 12</div>
-                                <div class="clearer">&nbsp;</div>
-                            </li>
-                            <li>
-                                <div class="left"><a href="#">Justo interdum rutrum</a></div>
-                                <div class="right">Sep 15</div>
-                                <div class="clearer">&nbsp;</div>
-                            </li>
-                            <li>
-                                <div class="left"><a href="#">In nec justo in urna</a></div>
-                                <div class="right">Sep 12</div>
-                                <div class="clearer">&nbsp;</div>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div>
             <div class="clearer">&nbsp;</div>
         </div>
 
@@ -568,9 +492,9 @@
     </div>
     <script>
         <?php if (isset($_SESSION['message'])) { ?>
-            alert('<?php echo $_SESSION['message']['data']; unset($_SESSION['message']);  ?>');
+        alert('<?php echo $_SESSION['message']['data']; unset($_SESSION['message']);  ?>');
         <?php }?>
     </script>
     </body>
-</html>
+    </html>
 <?php } ?>
